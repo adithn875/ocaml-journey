@@ -1,4 +1,4 @@
-## Day 11 - Recursion, Map/Filter/Fold, Options drill
+## Day 8 - Recursion, Map/Filter/Fold, Options drill
 - Built length, reverse, contains from scratch
 - Practiced List.map, List.filter, List.fold_left
 - Learned the |> pipe operator
