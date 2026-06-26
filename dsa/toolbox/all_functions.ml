@@ -98,3 +98,6 @@ let rec drop n lst =
   | head :: tail ->
     if n = 0 then lst
     else drop (n - 1) tail
+
+let rotate n lst =
+  drop n lst @ take n lst
