@@ -76,14 +76,14 @@ Become proficient enough in OCaml to contribute to production-grade functional s
 | Insertion Sort | `insert_sorted`, `insertion_sort` |
 | Merge Sort | `split`, `merge`, `merge_sort` |
 
-### 🔄 Trees — In Progress
+### ✅ Trees — Complete
 | Function | Status |
 |----------|--------|
 | `size` | ✅ |
 | `height` | ✅ |
 | `member` | ✅ |
 | `inorder` | ✅ |
-| BST insert, search | 🔄 |
+| BST insert, search | ✅ |
 
 ---
 
