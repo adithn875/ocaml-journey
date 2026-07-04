@@ -1,33 +1,19 @@
-<<<<<<< HEAD
 # 🐫 OCaml Journey
-
-> From zero to Jane Street — one commit at a time.
-
-[![OCaml](https://img.shields.io/badge/OCaml-5.4.1-orange?style=flat-square&logo=ocaml)](https://ocaml.org)
-[![GitHub Streak](https://img.shields.io/badge/Daily%20Commits-Active-brightgreen?style=flat-square)](https://github.com/adithn875/ocaml-journey)
-[![Target](https://img.shields.io/badge/Target-Jane%20Street%20%7C%20Tarides-blue?style=flat-square)](https://github.com/adithn875/ocaml-journey)
-
----
+From zero to Jane Street — one commit at a time.
 
 ## 👤 About Me
+I'm Adith, a B.E. graduate in AI & Data Science (2026) from Bengaluru, India.
 
-I'm **Adith**, a B.E. graduate in AI & Data Science (2026) from Bengaluru, India.
-
-I started this repository with **zero OCaml knowledge** and a clear goal — land a role at an OCaml-heavy company like Jane Street or Tarides. Every single day I write OCaml, learn something new, and push it here.
+I started this repository with zero OCaml knowledge and a clear goal — land a role at an OCaml-heavy company like Jane Street or Tarides. Every single day I write OCaml, learn something new, and push it here.
 
 This repo is my public proof of work.
 
-- 🔗 [LinkedIn](https://linkedin.com/in/adithn875)
-- 🐙 [GitHub](https://github.com/adithn875)
-- 📧 Open to OCaml roles — reach out!
-
----
+🔗 [LinkedIn](https://www.linkedin.com/in/adith-nk/)
+🐙 [GitHub](https://github.com/adithn875)
+📧 Open to OCaml roles — reach out!
 
 ## 🎯 Goal
-
-> Become proficient enough in OCaml to contribute to production-grade functional systems and land a role at **Jane Street**, **Tarides**, or similar OCaml-focused companies.
-
----
+Become proficient enough in OCaml to contribute to production-grade functional systems and land a role at Jane Street, Tarides, or similar OCaml-focused companies.
 
 ## 🗺️ Roadmap
 
@@ -37,11 +23,11 @@ This repo is my public proof of work.
 | Day 1 | Let bindings, values, basic functions | ✅ |
 | Day 2 | Types and type inference | ✅ |
 | Day 3 | Functions and pattern matching | ✅ |
-| Day 4 | Recursion and the `rec` keyword | ✅ |
+| Day 4 | Recursion and the rec keyword | ✅ |
 | Day 5 | Lists and list pattern matching | ✅ |
 | Day 6 | Higher order functions — map, filter, fold | ✅ |
 | Day 7 | Tuples and Option types | ✅ |
-| **Project** | **Shopping Cart — using all Week 1 concepts** | ✅ |
+| Project | Shopping Cart — using all Week 1 concepts | ✅ |
 
 ### 🔄 Week 2 — Thinking in OCaml
 | Day | Topic | Status |
@@ -66,45 +52,52 @@ This repo is my public proof of work.
 - Jane Street style problems
 - Reading real OCaml codebases
 
----
+## 🛠️ DSA Track (Running in parallel)
+
+### ✅ List Recursion — Complete
+| Tier | Functions |
+|------|-----------|
+| Easy | `length`, `nth`, `last`, `remove_duplicates` |
+| Medium | `flatten`, `zip`, `take`, `drop`, `rotate` |
+| Harder | `chunk`, `run_length_encode`, `interleave` |
+
+### ✅ Sorting — Complete
+| Algorithm | Functions |
+|-----------|-----------|
+| Insertion Sort | `insert_sorted`, `insertion_sort` |
+| Merge Sort | `split`, `merge`, `merge_sort` |
+
+### 🔄 Trees — In Progress
+| Function | Status |
+|----------|--------|
+| `size` | ✅ |
+| `height` | ✅ |
+| `member` | ✅ |
+| `inorder` | ✅ |
+| BST insert, search | 🔄 |
 
 ## 🛠️ Environment
-
-```
 OS       : Ubuntu 24 (WSL2 on Windows 10)
 OCaml    : 5.4.1
 opam     : installed
 utop     : installed
 dune     : 3.23.1
 Editor   : VSCode + OCaml Platform extension
-```
-
----
-
 ## 📁 Repository Structure
-
-```
 ocaml-journey/
 ├── week-01/
-│   ├── day-01-basics/
-│   ├── day-02-types/
-│   ├── day-03-functions/
-│   ├── day-04-recursion/
-│   ├── day-05-lists/
-│   ├── day-06-higher-order/
-│   ├── day-07-tuples-options/
-│   └── week1-project/        ← Shopping Cart
 ├── week-02/
-│   ├── day-08-variants/
-│   ├── day-09-records/
-│   └── ...
+├── dsa/
+│   ├── 01-arrays/
+│   ├── 02-list-recursion/
+│   │   ├── day25.ml
+│   │   ├── insertion_sort.ml
+│   │   └── merge_sort.ml
+│   ├── 03-trees/
+│   │   └── trees.ml
+│   └── toolbox/
 └── README.md
-```
-
----
-
 ## 🏆 Week 1 Project — Shopping Cart
-
 A fully functional shopping cart built using every concept from Week 1.
 
 ```ocaml
@@ -124,57 +117,27 @@ let rec find_item name items =
     else find_item name tail
 ```
 
-**Features:**
-- ✅ Add and list items
-- ✅ Calculate total cost
-- ✅ Safe item search with `Option` types
-- ✅ Filter items by price
-- ✅ Formatted print output
-
----
-
 ## 💡 Key Insights So Far
-
-**1. Types are everything**
-OCaml's type system catches bugs before your program runs. No more runtime surprises.
-
-**2. Pattern matching > if/else**
-Matching on the shape of data is cleaner, exhaustive, and compiler-verified.
-
-**3. Recursion over loops**
-No `for` or `while` — recursion with a base case is how you think in OCaml.
-
-**4. Options over null**
-`None` and `Some x` force you to handle missing values explicitly. No null pointer crashes.
-
-**5. Immutability by default**
-Records don't mutate — you create new ones with `{ r with field = value }`. Predictable, safe code.
-
----
+1. **Types are everything** — OCaml's type system catches bugs before your program runs.
+2. **Pattern matching > if/else** — Matching on the shape of data is cleaner and compiler-verified.
+3. **Recursion over loops** — No `for` or `while` — recursion with a base case is how you think in OCaml.
+4. **Options over null** — `None` and `Some x` force you to handle missing values explicitly.
+5. **Immutability by default** — Records don't mutate — predictable, safe code.
+6. **Compose small functions** — Complex algorithms like merge sort are just small focused functions composed together.
 
 ## 📈 Why OCaml?
-
-- Used at **Jane Street** for all trading systems
-- Used at **Tarides** for MirageOS and developer tools
-- **Type safe** — compiler catches errors humans miss
-- **Functional** — no side effects, no surprises
-- **Fast** — compiles to native code, close to C performance
-
----
+- Used at Jane Street for all trading systems
+- Used at Tarides for MirageOS and developer tools
+- Type safe — compiler catches errors humans miss
+- Functional — no side effects, no surprises
+- Fast — compiles to native code, close to C performance
 
 ## 🔥 Daily Commitment
-
 Every day I:
-1. Create a new `.ml` file for the day's concept
-2. Test everything in `utop`
-3. Push to this repo with a meaningful commit message
+- Create a new `.ml` file for the day's concept
+- Test everything in `utop`
+- Push to this repo with a meaningful commit message
 
-No days off. No half commits. Just consistent progress.
-
----
-
-> *"OCaml is not just a language — it's a way of thinking about correctness."*
-
----
+> "OCaml is not just a language — it's a way of thinking about correctness."
 
 ⭐ Star this repo if you're on a similar journey!
