@@ -1,6 +1,9 @@
 # 🐫 OCaml Journey
 From zero to Jane Street — one commit at a time.
-
+![OCaml](https://img.shields.io/badge/OCaml-5.4.1-orange?logo=ocaml)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Days](https://img.shields.io/badge/Day-28-blue)
+![GitHub streak](https://img.shields.io/github/commit-activity/w/adithn875/ocaml-journey)
 ## 👤 About Me
 I'm Adith, a B.E. graduate in AI & Data Science (2026) from Bengaluru, India.
 
