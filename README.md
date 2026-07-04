@@ -98,8 +98,9 @@ Become proficient enough in OCaml to contribute to production-grade functional s
 | Editor | VSCode + OCaml Platform |
 
 ---
-
 ## 📁 Repository Structure
+
+```
 ocaml-journey/
 ├── week-01/
 ├── week-02/
@@ -113,6 +114,7 @@ ocaml-journey/
 │   │   └── trees.ml
 │   └── toolbox/
 └── README.md
+```
 ---
 
 ## 🏆 Week 1 Project — Shopping Cart
