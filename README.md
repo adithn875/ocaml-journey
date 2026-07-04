@@ -1,9 +1,11 @@
 # 🐫 OCaml Journey
-From zero to Jane Street — one commit at a time.
-![OCaml](https://img.shields.io/badge/OCaml-5.4.1-orange?logo=ocaml)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Days](https://img.shields.io/badge/Day-28-blue)
-![GitHub streak](https://img.shields.io/github/commit-activity/w/adithn875/ocaml-journey)
+> From zero to Jane Street — one commit at a time.
+
+![OCaml](https://img.shields.io/badge/OCaml-5.4.1-EC6813?style=flat-square&logo=ocaml&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+![Day](https://img.shields.io/badge/Day-28-blue?style=flat-square)
+![Commits](https://img.shields.io/github/commit-activity/w/adithn875/ocaml-journey?style=flat-square&label=Weekly%20Commits)
+
 ## 👤 About Me
 I'm Adith, a B.E. graduate in AI & Data Science (2026) from Bengaluru, India.
 
@@ -11,12 +13,14 @@ I started this repository with zero OCaml knowledge and a clear goal — land a 
 
 This repo is my public proof of work.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/adith-nk/)
-🐙 [GitHub](https://github.com/adithn875)
-📧 Open to OCaml roles — reach out!
+🔗 [LinkedIn](https://www.linkedin.com/in/adith-nk/) &nbsp;|&nbsp; 🐙 [GitHub](https://github.com/adithn875) &nbsp;|&nbsp; 📧 Open to OCaml roles — reach out!
+
+---
 
 ## 🎯 Goal
 Become proficient enough in OCaml to contribute to production-grade functional systems and land a role at Jane Street, Tarides, or similar OCaml-focused companies.
+
+---
 
 ## 🗺️ Roadmap
 
@@ -43,19 +47,21 @@ Become proficient enough in OCaml to contribute to production-grade functional s
 | Day 13 | Trees and recursive data structures | 🔄 |
 | Day 14 | Week 2 project + test | 🔄 |
 
-### 📅 Week 3 — Real OCaml (Coming Soon)
+### 📅 Week 3 — Real OCaml
 - Dune build system
 - Writing and running executables
 - File I/O
 - First CLI tool
 
-### 📅 Week 4 — Interview Ready (Coming Soon)
+### 📅 Week 4 — Interview Ready
 - Data structures from scratch (trees, graphs, stacks)
 - Algorithm problems in OCaml
 - Jane Street style problems
 - Reading real OCaml codebases
 
-## 🛠️ DSA Track (Running in parallel)
+---
+
+## 🧠 DSA Track (Running in parallel)
 
 ### ✅ List Recursion — Complete
 | Tier | Functions |
@@ -79,13 +85,20 @@ Become proficient enough in OCaml to contribute to production-grade functional s
 | `inorder` | ✅ |
 | BST insert, search | 🔄 |
 
+---
+
 ## 🛠️ Environment
-OS       : Ubuntu 24 (WSL2 on Windows 10)
-OCaml    : 5.4.1
-opam     : installed
-utop     : installed
-dune     : 3.23.1
-Editor   : VSCode + OCaml Platform extension
+| Tool | Version |
+|------|---------|
+| OS | Ubuntu 24 (WSL2 on Windows 10) |
+| OCaml | 5.4.1 |
+| opam | installed |
+| utop | installed |
+| dune | 3.23.1 |
+| Editor | VSCode + OCaml Platform |
+
+---
+
 ## 📁 Repository Structure
 ocaml-journey/
 ├── week-01/
@@ -100,6 +113,8 @@ ocaml-journey/
 │   │   └── trees.ml
 │   └── toolbox/
 └── README.md
+---
+
 ## 🏆 Week 1 Project — Shopping Cart
 A fully functional shopping cart built using every concept from Week 1.
 
@@ -120,6 +135,8 @@ let rec find_item name items =
     else find_item name tail
 ```
 
+---
+
 ## 💡 Key Insights So Far
 1. **Types are everything** — OCaml's type system catches bugs before your program runs.
 2. **Pattern matching > if/else** — Matching on the shape of data is cleaner and compiler-verified.
@@ -128,6 +145,8 @@ let rec find_item name items =
 5. **Immutability by default** — Records don't mutate — predictable, safe code.
 6. **Compose small functions** — Complex algorithms like merge sort are just small focused functions composed together.
 
+---
+
 ## 📈 Why OCaml?
 - Used at Jane Street for all trading systems
 - Used at Tarides for MirageOS and developer tools
@@ -135,12 +154,16 @@ let rec find_item name items =
 - Functional — no side effects, no surprises
 - Fast — compiles to native code, close to C performance
 
+---
+
 ## 🔥 Daily Commitment
 Every day I:
 - Create a new `.ml` file for the day's concept
 - Test everything in `utop`
 - Push to this repo with a meaningful commit message
 
-> "OCaml is not just a language — it's a way of thinking about correctness."
+> *"OCaml is not just a language — it's a way of thinking about correctness."*
+
+---
 
 ⭐ Star this repo if you're on a similar journey!
